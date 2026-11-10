@@ -1,0 +1,21 @@
+# Factory data must never be committed by accident
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+!tests/fixtures/*.csv
+
+# Python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*
